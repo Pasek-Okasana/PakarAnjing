@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PAKAR ANJING</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="register">Register</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="diagnosa">Diagnosa</string>
+    <string name="solusi">Solusi</string>
+    <string name="hasil_diagnosa">Hasil Diagnosa</string>
+    <string name="bantuan_cara_penggunaan_aplikasi">Bantuan cara penggunaan aplikasi</string>
+    <string name="menu_diagnosa">Menu Diagnosa</string>
+    <string name="bantuan">Digunakan untuk melakukan diagnosa dengan cara menceklis gejala-gejala yang dirasakan dan menekan tombol Diagnosa untuk melihat hasil diagnosa</string>
+    <string name="bantuan2">Digunakan untuk melihat semua daftar penyakit kandungan dan bisa dilihat informasi detail dari setiap penyakit tersebut</string>
+    <string name="bantuan3">Di menu ini bisa dilihat daftar riwayat diagnosa yang sudah pernah dilakukan sebelumnya</string>
+    <string name="bantuan4">Di menu ini bisa dilihat informasi lengkap dari pembuat aplikasi</string>
+    <string name="menu_daftar_penyakit">Menu Daftar Penyakit</string>
+    <string name="menu_riwayat_diagnosa">Menu Riwayat Diagnosa</string>
+    <string name="menu_about">Menu About</string>
+    <string name="about1">Sistem Pakar dalam Mengidentifikasi Penyakit Kandungan Menggunakan Metode Forward Chaining Berbasis Android</string>
+    <string name="about2">Nama : Adi Gunawan\nNo BP : 181321001\nLokal : 32A</string>
+    <string name="about3">Pembimbing 1 :\nProf. Dr. Sarjon Defit, S.Kom, M.Sc</string>
+    <string name="about4">Pembimbing 2 :\nDr. Ir. Sumijan, M.Sc</string>
+    <string name="about5">Yayasan Perguruan Tinggi Komputer (YPTK) Padang\nFAKULTAS ILMU KOMPUTER\nUniversitas Putra Indonesia "YPTK"</string>
+    <string name="TODO">TODO</string>
+    <string name="Main_Menu">Main Menu</string>
+    <string name="Pilih_Diagnosa">Pilih Diagnosa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Keluar">Keluar</string>
+    <string name="ket_hasil_diagnosa">Hasil Dari Diagnosa</string>
+</resources>

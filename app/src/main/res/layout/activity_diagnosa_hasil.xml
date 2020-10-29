@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/biruMuda">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/appBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:elevation="0dp"
+        android:background="@color/colorPrimary">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_default"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <View
+        android:layout_below="@id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_top_1"/>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="25dp">
+        <LinearLayout
+            android:id="@+id/linier_view"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/imageView_cek"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/icon41apl"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/txt_topView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/ket_hasil_diagnosa"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="16dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/hasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_solusi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/radius_bg_all_primary_15dp"
+        android:text="@string/solusi"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

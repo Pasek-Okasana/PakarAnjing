@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:minHeight="?attr/actionBarSize">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:id = "@+id/txt_toolbar_name"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:textSize = "20sp"
+        android:textColor = "@android:color/white"
+        android:textStyle = "bold" />
+
+</androidx.appcompat.widget.Toolbar>
