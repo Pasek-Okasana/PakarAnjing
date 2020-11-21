@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,6 +16,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.pakaranjing.MainActivity;
 import com.pakaranjing.MySingleton;
 import com.pakaranjing.R;
 
@@ -52,6 +54,11 @@ public class PenyakitDetailActivity extends AppCompatActivity {
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(false);
         pDialog.show();
+    }
+
+    public void onClickBackHome(View view) {
+        startActivity(new Intent(PenyakitDetailActivity.this, MainActivity.class));
+        finish();
     }
 
     private void getData() {
@@ -119,4 +126,6 @@ public class PenyakitDetailActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }

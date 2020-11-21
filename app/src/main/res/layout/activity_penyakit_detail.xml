@@ -31,6 +31,7 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_below="@id/appBar"
+      android:layout_above="@id/btn_home"
       tools:ignore="UselessLeaf">
       <androidx.cardview.widget.CardView
           android:layout_width="match_parent"
@@ -73,5 +74,22 @@
           </LinearLayout>
       </androidx.cardview.widget.CardView>
   </ScrollView>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius_bg_all_primary_15dp"
+        android:onClick="onClickBackHome"
+        android:text="@string/halamanawal"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 </RelativeLayout>
