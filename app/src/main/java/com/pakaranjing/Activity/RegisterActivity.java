@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     private String username;
     private String password;
     private ProgressDialog pDialog;
-    String url = MainAPI.MAINAPI+"register.php";
+    String url = MainAPI.MAINAPI+"auth/register";
 //    String url = "http://10.0.2.2/eclinic_melati/android/register.php";
 
     @Override

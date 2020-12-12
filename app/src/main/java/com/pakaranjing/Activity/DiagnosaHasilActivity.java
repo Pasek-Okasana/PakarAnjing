@@ -27,7 +27,7 @@ public class DiagnosaHasilActivity extends AppCompatActivity {
 
     private String hasil;
     private ProgressDialog pDialog;
-    private static final String url = MainAPI.MAINAPI+"get_hasil_diagnosa.php";
+    private static final String url = MainAPI.MAINAPI+"hasildiagnosa";
 //    private static final String url = "http://10.0.2.2/eclinic_melati/android/get_hasil_diagnosa.php";
     private Button btn_solusi;
     private User user;

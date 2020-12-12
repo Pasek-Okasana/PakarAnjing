@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity{
     private String password;
     private ProgressDialog pDialog;
 
-    String login_url = MainAPI.MAINAPI+"login.php";
+    String login_url = MainAPI.MAINAPI+"auth/login";
 //    String login_url = "http://10.0.2.2/eclinic_melati/android/login.php";
     private SessionHandler session;
 

@@ -36,7 +36,7 @@ import java.util.ArrayList;
 public class DiagnosaActivity extends AppCompatActivity {
 
     private ProgressDialog pDialog;
-    private static final String url = MainAPI.MAINAPI+"get_daftar_gejala.php";
+    private static final String url = MainAPI.MAINAPI+"gejala";
     private static final String urldiagnosahasil = MainAPI.MAINAPI+"get_hasil_diagnosa.php";
 //    private static final String url = "http://10.0.2.2/eclinic_melati/android/get_daftar_gejala.php";
 //    private MyCustomAdapter dataAdapter = null;
@@ -78,6 +78,8 @@ public class DiagnosaActivity extends AppCompatActivity {
                     Intent myIntent = new Intent(v.getContext(), DiagnosaHasilActivity.class);
                     myIntent.putExtra("HASIL", responseText.toString());
                     startActivity(myIntent);
+
+                    Log.i("Diagnosa ", " Hasil : " + responseText.toString());
 //                    Toast.makeText(getApplicationContext(), responseText.toString(), Toast.LENGTH_LONG).show();
                 }
             }

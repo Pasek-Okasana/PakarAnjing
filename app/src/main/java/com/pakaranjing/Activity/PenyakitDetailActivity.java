@@ -26,7 +26,7 @@ import org.json.JSONObject;
 public class PenyakitDetailActivity extends AppCompatActivity {
 
     private ProgressDialog pDialog;
-    private final static String url = MainAPI.MAINAPI+"get_penyakit.php";
+    private final static String url = MainAPI.MAINAPI+"penyakit";
 //    private final static String url = "http://10.0.2.2/eclinic_melati/android/get_penyakit.php";
     private TextView nama_penyakit;
     private TextView detail_penyakit;

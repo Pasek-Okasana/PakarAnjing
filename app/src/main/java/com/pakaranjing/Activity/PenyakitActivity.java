@@ -30,7 +30,7 @@ import java.util.HashMap;
 public class PenyakitActivity extends AppCompatActivity {
 
     private ProgressDialog pDialog;
-    private final static String url = MainAPI.MAINAPI+"get_daftar_penyakit.php";
+    private final static String url = MainAPI.MAINAPI+"penyakit";
 //    private final static String url = "http://10.0.2.2/eclinic_melati/android/get_daftar_penyakit.php";
     private ListView lv;
     private SimpleAdapter adapter;
